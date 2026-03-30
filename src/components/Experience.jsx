@@ -13,11 +13,11 @@ const experiences = [
     iconBg: "#0f3460",
     date: "Nov 2025 – Mar 2026",
     points: [
-      "Built and maintained 16 Python/FastAPI microservices on Kubernetes (K3S) — execution engine, AI agents, API gateway, process design, human tasks, notifications, scheduling, marketplace, document intelligence, event bus, and WebSocket gateway.",
+      "Built and maintained 14 Python/FastAPI microservices on Kubernetes (K3S) — execution engine, AI agents, API gateway, process design, human tasks, notifications, scheduling, marketplace, event bus, and WebSocket gateway.",
       "Designed 4-tier RBAC with org-level data scoping and service-to-service auth — fixed 27 cross-tenant data-leak vulnerabilities, built per-user gateway cache, and integrated AI agent orchestration with Claude API.",
       "Developed a full marketplace system with 9-step SSE installer, reference-based install tracking, and Redis cache invalidation. Rewrote frontend to Tailwind CSS with installed badges, status filters, and flowchart preview.",
       "Provisioned and deployed infrastructure across 5 Hetzner servers — K3S clusters, GitLab CI/CD, Docker registries, nginx proxies, ArangoDB, PostgreSQL, Redis. Managed cross-server data sync and database migrations. 30/30 e2e tests.",
-      "Built DXG (Dynamic Experience Generator) — AI-powered UI engine using Claude API, integrated across micro-apps. Set up Plane for project management with 18+ structured tickets.",
+      "Set up Plane (self-hosted project management) with 18+ structured tickets. Maintained CI/CD pipelines across all services with GitLab CI and automated deployments.",
     ],
   },
   {
