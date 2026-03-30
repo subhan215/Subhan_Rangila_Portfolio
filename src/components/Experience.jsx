@@ -3,14 +3,14 @@ import { motion, AnimatePresence, useAnimation, useInView } from "framer-motion"
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { textVariant, fadeIn } from "../utils/motion";
-import { enviro, techmile_solutions_logo, fast_nu, jawan_pakistan } from "../assets";
+import { enviro, techmile_solutions_logo, fast_nu, jawan_pakistan, flowmaster } from "../assets";
 
 const experiences = [
   {
     title: "Software Engineer",
     company_name: "FlowMaster (Remote)",
-    icon: fast_nu,
-    iconBg: "#0f3460",
+    icon: flowmaster,
+    iconBg: "#fff",
     date: "Nov 2025 – Mar 2026",
     points: [
       "Developed 14 Python/FastAPI microservices from scratch and deployed on Kubernetes (K3S) — execution engine, AI agents, API gateway, process design, human tasks, notifications, scheduling, marketplace, event bus, and WebSocket gateway.",

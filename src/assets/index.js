@@ -50,6 +50,7 @@ import city_grammar_school_logo from "./the_city_grammar_school.png";
 import techmile_solutions_logo from "./techmile_solutions_logo.jpeg";
 import jawan_pakistan from "./jawan_pakistan_logo.jpeg";
 import google from "./company/google.png";
+import flowmaster from "./company/flowmaster.jpg";
 import enviro from "./enviro_logo.png";
 
 import bazaar_website from "./bazaar_website.png";
@@ -118,4 +119,5 @@ export {
   threejs,
   cisco,
   enviro,
+  flowmaster,
 };
