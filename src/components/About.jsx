@@ -121,8 +121,8 @@ const About = () => {
           >
             <motion.li variants={fadeIn("up", "spring", 0.1, 0.75)}>
               <span className="mr-4 text-2xl">👨‍💻</span>
-              Software Engineer with production experience building large-scale
-              distributed systems — from microservices architecture to CI/CD pipelines to production deployments.
+              Software Engineer passionate about building scalable backend systems,
+              clean APIs, and solving complex engineering problems.
             </motion.li>
 
             <motion.li variants={fadeIn("up", "spring", 0.2, 0.75)}>
@@ -133,25 +133,21 @@ const About = () => {
 
             <motion.li variants={fadeIn("up", "spring", 0.3, 0.75)}>
               <span className="mr-4 text-2xl">🛠</span>
-              Built and maintained a <b>multi-tenant process automation platform</b> with{" "}
-              <b>24+ microservices</b> — including process design, execution engine,
-              AI agent orchestration (Claude API), human task management, notification system,
-              document intelligence, scheduling, marketplace with install lifecycle,
-              and a real-time WebSocket gateway.
+              Experienced in <b>microservices architecture</b>, <b>REST APIs</b>,{" "}
+              <b>database design</b>, <b>authentication & authorization</b>,{" "}
+              and <b>real-time systems</b> — from design to deployment.
             </motion.li>
 
             <motion.li variants={fadeIn("up", "spring", 0.4, 0.75)}>
-              <span className="mr-4 text-2xl">🔒</span>
-              Designed <b>4-tier RBAC</b> with organization-level data scoping,
-              internal service-to-service auth, gateway response caching with per-user isolation,
-              and cross-tenant data leak prevention across all services.
+              <span className="mr-4 text-2xl">🚀</span>
+              Hands-on with <b>Python, FastAPI, Node.js, Next.js, PostgreSQL,
+              Docker, Kubernetes</b>, and <b>CI/CD pipelines</b> in production environments.
             </motion.li>
 
             <motion.li variants={fadeIn("up", "spring", 0.5, 0.75)}>
-              <span className="mr-4 text-2xl">🚀</span>
-              Deployed on <b>Kubernetes (K3S)</b> across multiple Hetzner servers with{" "}
-              <b>GitLab CI/CD</b>, Docker registries, nginx reverse proxies,{" "}
-              ArangoDB, PostgreSQL, and Redis — full production infrastructure.
+              <span className="mr-4 text-2xl">💡</span>
+              Always learning — currently exploring system design, distributed computing,
+              and AI-powered applications.
             </motion.li>
           </motion.ul>
         </motion.div>
