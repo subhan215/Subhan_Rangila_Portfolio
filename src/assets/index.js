@@ -10,8 +10,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import mysql from "./tech/mysql.png";
 import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -23,104 +21,36 @@ import postgresql from "./tech/postgresql.png";
 import mongodb from "./tech/mongodb.png";
 import linux from "./tech/linux.png";
 import tailwind from "./tech/tailwind.png";
-import python from "./tech/python.png"
-import cplusplus from "./tech/c++.svg"
-import typescript from "./tech/typescript.png"
-import threejs from "./tech/threejs.svg"
+import python from "./tech/python.png";
+import cplusplus from "./tech/c++.svg";
+import typescript from "./tech/typescript.png";
 
-import azure from "./tech/azure.png";
-import powershell from "./tech/powershell.svg"
-import cisco from "./tech/cisco.svg"
-import connectwise from "./tech/connectwise.png"
-import virtualbox from "./tech/virtualbox.png"
-import kalilinux from "./tech/kali_linux.svg"
-import wireshark from "./tech/wireshark.png"
-import nmap from "./tech/nmap.svg"
-import metasploit from "./tech/metasploit.svg"
-import johntheripper from "./tech/johntheripper.svg"
-import hydra from "./tech/hydra.svg"
-import aircrackng from "./tech/aircrackng.svg"
+import nodejs from "./tech/nodejs.png";
+import nextjs from "./tech/next.png";
+import express from "./tech/express.png";
+import springboot from "./tech/springboot.png";
+import reactnative from "./tech/reactnative.png";
+import postman from "./tech/postman.png";
+import firebase from "./tech/firebase.png";
 
-import photoshop from "./tech/photoshop.svg"
-import premiere from "./tech/premiere.svg"
-import cinema4d from "./tech/cinema4d.png"
-import blender from "./tech/blender.svg"
+import fast_nu from './National_University_of_Computer_and_Emerging_Sciences_logo.png';
+import adamjeelogo from "./adamjee_govt_science_college.jpeg";
+import city_grammar_school_logo from "./the_city_grammar_school.png";
+import techmile_solutions_logo from "./techmile_solutions_logo.jpeg";
+import jawan_pakistan from "./jawan_pakistan_logo.jpeg";
+import google from "./company/google.png";
 
-
-import otu from "./company/otu.png"
-import rhhs from "./company/rhhs.jpg"
-import wonderland from "./company/wonderland.jpg"
-import mackenziehealth from "./company/mackenziehealth.png"
-import privcurity from "./company/privcurity.jpg"
-import staples from "./company/staples.png"
-import google from "./company/google.png"
-import whmis from "./company/whmis.png"
-import aws from "./tech/aws.png";
-
-import netdashlanding from "./netdashlanding.png"
-import securebankdashboard from "./securebankdash.jpg"
-import sunnifyimage from "./demonstration 2.jpg"
-import knifethrowimage from "./knifethrow_demonstration.jpg"
-// import pythonanalysis from "./data_analysis.png"
-// import password_generator from "./passwordgenerator.png"
-import wordsearch from "./wordsearchoutput.jpg"
-import financialflowimage from "./FinancialFlowDemonstration.png"
-import enterpriseapitester from "./enterpriseapiui.png"
+import bazaar_website from "./bazaar_website.png";
+import blogify_website from "./blogify_website.png";
+import edumingle_website from "./edumingle_website.png";
+import enviro_website from "./enviro_website.png";
+import kof_website from "./kof_website.png";
+import musk_website from "./musk_website.png";
 
 import resume from "./Resume-subhan-Rangila.pdf";
-import awsdbcert from "./AWS Database Specialty Certified - Sunny Jayendra Patel.jpg"
-import connectwisecert from "./Connectwise-Scripting-Certification.pdf"
-import c from "./tech/c.png"
-import canva from  "./tech/canva.jpeg"
-import django from "./tech/django.png"
-import express from "./tech/express.png"
-import firebase from "./tech/firebase.png"
-import jira from "./tech/jira.png"
-import nextjs from "./tech/next.png"
-import nodejs from "./tech/nodejs.png"
-import postman from "./tech/postman.png"
-import reactnative from "./tech/reactnative.png"
-import springboot from "./tech/springboot.png"
-import vscode from "./tech/vscode.jpeg"
-import adamjeelogo from "./adamjee_govt_science_college.jpeg"
-import city_grammar_school_logo from "./the_city_grammar_school.png"
-import fast_nu from './National_University_of_Computer_and_Emerging_Sciences_logo.png';
-import enviro from "./enviro_logo.png"
-import jawan_pakistan from "./jawan_pakistan_logo.jpeg"
-import frontend_certification from "./front_end_dev_certification.pdf"
-import techmile_solutions_logo from "./techmile_solutions_logo.jpeg"
-import bazaar_website from "./bazaar_website.png"
-import blogify_website from "./blogify_website.png"
-import edumingle_website from "./edumingle_website.png"
-import enviro_website from "./enviro_website.png"
-import kof_website from "./kof_website.png"
-import musk_website from "./musk_website.png"
+
 export {
-  musk_website , 
-  kof_website , 
-  enviro_website , 
-  edumingle_website , 
-  blogify_website , 
-  bazaar_website,
-  techmile_solutions_logo,
-  enviro , 
-  jawan_pakistan ,
-frontend_certification , 
-  fast_nu , 
-  city_grammar_school_logo,
-  adamjeelogo,
-  vscode , 
-  springboot,
-  reactnative , 
-  postman ,
-  nodejs, 
-  nextjs,
-  jira , 
-  firebase ,
-  express , 
-  django , 
-  canva,
-  c , 
+  profilepic,
   logo,
   backend,
   mobile,
@@ -129,6 +59,7 @@ frontend_certification ,
   github,
   menu,
   close,
+  docker,
   css,
   git,
   html,
@@ -136,53 +67,31 @@ frontend_certification ,
   java,
   ubuntu,
   reactjs,
-  linux,
-  tailwind,
   postgresql,
   mongodb,
-  aws,
-  otu,
-  rhhs,
-  wonderland,
-  mackenziehealth,
-  privcurity,
-  google,
-  whmis,
-  netdashlanding,
-  securebankdashboard,
-  sunnifyimage,
-  knifethrowimage,
-  // pythonanalysis,
-  // password_generator,
-  wordsearch,
+  linux,
+  tailwind,
   python,
   cplusplus,
   typescript,
-  powershell,
-  cisco,
-  connectwise,
-  virtualbox,
-  kalilinux,
-  wireshark,
-  nmap,
-  metasploit,
-  johntheripper,
-  hydra,
-  aircrackng,
-  photoshop,
-  premiere,
-  cinema4d,
-  blender,
+  nodejs,
+  nextjs,
+  express,
+  springboot,
+  reactnative,
+  postman,
+  firebase,
+  fast_nu,
+  adamjeelogo,
+  city_grammar_school_logo,
+  techmile_solutions_logo,
+  jawan_pakistan,
+  google,
+  bazaar_website,
+  blogify_website,
+  edumingle_website,
+  enviro_website,
+  kof_website,
+  musk_website,
   resume,
-  awsdbcert,
-  connectwisecert,
-  financialflowimage,
-  enterpriseapitester,
-  profilepic,
-  docker,
-  figma,
-  mysql,
-  threejs,
-  azure,
-  staples
 };
