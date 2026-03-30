@@ -121,28 +121,27 @@ const About = () => {
           >
             <motion.li variants={fadeIn("up", "spring", 0.1, 0.75)}>
               <span className="mr-4 text-2xl">👨‍💻</span>
-              I’m an aspiring Software Developer passionate about building
-              scalable, impactful, and user-centric solutions.
+              Software Engineer with production experience building large-scale
+              distributed systems and microservices architectures.
             </motion.li>
 
             <motion.li variants={fadeIn("up", "spring", 0.2, 0.75)}>
               <span className="mr-4 text-2xl">🎓</span>
-              Pursuing a Bachelor of Science in Computer Science at{" "}
-              <b>FAST National University of Computer and Emerging Sciences, Karachi</b>,
-              I enjoy translating ideas into reliable, production-ready software.
+              Final-year CS student at{" "}
+              <b>FAST-NUCES, Karachi</b> (CGPA 3.57/4.0).
             </motion.li>
 
             <motion.li variants={fadeIn("up", "spring", 0.3, 0.75)}>
               <span className="mr-4 text-2xl">🛠</span>
-              I’ve worked with technologies like <b>Next.js</b>, <b>React.js</b>,{" "}
-              <b>Node.js</b>, <b>PostgreSQL</b>, and <b>MongoDB</b> to deliver
-              scalable backend systems and modern frontend experiences.
+              Recently built a multi-tenant platform with <b>13+ Python/FastAPI microservices</b> on{" "}
+              <b>Kubernetes</b>, with <b>ArangoDB</b>, <b>PostgreSQL</b>, <b>Redis</b>,{" "}
+              RBAC, AI agent orchestration, and a full marketplace system.
             </motion.li>
 
             <motion.li variants={fadeIn("up", "spring", 0.4, 0.75)}>
               <span className="mr-4 text-2xl">🚀</span>
-              I’m particularly interested in system design, backend architecture,
-              and automation that improve efficiency and reliability.
+              Passionate about backend architecture, system design, DevOps,
+              and building things that work at scale.
             </motion.li>
 
             <motion.li variants={fadeIn("up", "spring", 0.5, 0.75)}>
