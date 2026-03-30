@@ -14,10 +14,10 @@ const experiences = [
     date: "Nov 2025 – Mar 2026",
     points: [
       "Developed 14 Python/FastAPI microservices from scratch and deployed on Kubernetes (K3S) — execution engine, AI agents, API gateway, process design, human tasks, notifications, scheduling, marketplace, event bus, and WebSocket gateway.",
-      "Designed 4-tier RBAC with org-level data scoping and service-to-service auth — fixed 27 cross-tenant data-leak vulnerabilities, built per-user gateway cache, and integrated AI agent orchestration with Claude API.",
-      "Developed a full marketplace system with 9-step SSE installer, reference-based install tracking, and Redis cache invalidation. Rewrote frontend to Tailwind CSS with installed badges, status filters, and flowchart preview.",
-      "Provisioned and deployed infrastructure across 5 Hetzner servers — K3S clusters, GitLab CI/CD, Docker registries, nginx proxies, ArangoDB, PostgreSQL, Redis. Managed cross-server data sync and database migrations. 30/30 e2e tests.",
-      "Set up Plane (self-hosted project management) with 18+ structured tickets. Maintained CI/CD pipelines across all services with GitLab CI and automated deployments.",
+      "Built authentication service with RBAC, API gateway with routing and caching, process design service for workflow modeling, and execution engine for running processes end-to-end.",
+      "Developed AI agent service (Claude API), human task management, notification system (multi-channel), scheduling service, event bus for async messaging, and real-time WebSocket gateway.",
+      "Created document intelligence service, audit logging, service registry with health monitoring, and a full marketplace with process install/uninstall lifecycle.",
+      "Deployed on Kubernetes across multiple servers with GitLab CI/CD, Docker, nginx, ArangoDB, PostgreSQL, and Redis. Managed cross-server data sync and database migrations.",
     ],
   },
   {
