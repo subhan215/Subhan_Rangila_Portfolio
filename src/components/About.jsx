@@ -122,7 +122,7 @@ const About = () => {
             <motion.li variants={fadeIn("up", "spring", 0.1, 0.75)}>
               <span className="mr-4 text-2xl">👨‍💻</span>
               Software Engineer with production experience building large-scale
-              distributed systems and microservices architectures.
+              distributed systems — from microservices architecture to CI/CD pipelines to production deployments.
             </motion.li>
 
             <motion.li variants={fadeIn("up", "spring", 0.2, 0.75)}>
@@ -133,21 +133,25 @@ const About = () => {
 
             <motion.li variants={fadeIn("up", "spring", 0.3, 0.75)}>
               <span className="mr-4 text-2xl">🛠</span>
-              Recently built a multi-tenant platform with <b>13+ Python/FastAPI microservices</b> on{" "}
-              <b>Kubernetes</b>, with <b>ArangoDB</b>, <b>PostgreSQL</b>, <b>Redis</b>,{" "}
-              RBAC, AI agent orchestration, and a full marketplace system.
+              Built and maintained a <b>multi-tenant process automation platform</b> with{" "}
+              <b>24+ microservices</b> — including process design, execution engine,
+              AI agent orchestration (Claude API), human task management, notification system,
+              document intelligence, scheduling, marketplace with install lifecycle,
+              and a real-time WebSocket gateway.
             </motion.li>
 
             <motion.li variants={fadeIn("up", "spring", 0.4, 0.75)}>
-              <span className="mr-4 text-2xl">🚀</span>
-              Passionate about backend architecture, system design, DevOps,
-              and building things that work at scale.
+              <span className="mr-4 text-2xl">🔒</span>
+              Designed <b>4-tier RBAC</b> with organization-level data scoping,
+              internal service-to-service auth, gateway response caching with per-user isolation,
+              and cross-tenant data leak prevention across all services.
             </motion.li>
 
             <motion.li variants={fadeIn("up", "spring", 0.5, 0.75)}>
-              <span className="mr-4 text-2xl">💡</span>
-              Continuously learning and exploring, I aim to craft elegant
-              solutions that make technology simple and powerful.
+              <span className="mr-4 text-2xl">🚀</span>
+              Deployed on <b>Kubernetes (K3S)</b> across multiple Hetzner servers with{" "}
+              <b>GitLab CI/CD</b>, Docker registries, nginx reverse proxies,{" "}
+              ArangoDB, PostgreSQL, and Redis — full production infrastructure.
             </motion.li>
           </motion.ul>
         </motion.div>
