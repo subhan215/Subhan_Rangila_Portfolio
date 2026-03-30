@@ -32,6 +32,17 @@ import springboot from "./tech/springboot.png";
 import reactnative from "./tech/reactnative.png";
 import postman from "./tech/postman.png";
 import firebase from "./tech/firebase.png";
+import django from "./tech/django.png";
+import c from "./tech/c.png";
+import canva from "./tech/canva.jpeg";
+import aws from "./tech/aws.png";
+import azure from "./tech/azure.png";
+import vscode from "./tech/vscode.jpeg";
+import jira from "./tech/jira.png";
+import mysql from "./tech/mysql.png";
+import figma from "./tech/figma.png";
+import threejs from "./tech/threejs.svg";
+import cisco from "./tech/cisco.svg";
 
 import fast_nu from './National_University_of_Computer_and_Emerging_Sciences_logo.png';
 import adamjeelogo from "./adamjee_govt_science_college.jpeg";
@@ -39,6 +50,7 @@ import city_grammar_school_logo from "./the_city_grammar_school.png";
 import techmile_solutions_logo from "./techmile_solutions_logo.jpeg";
 import jawan_pakistan from "./jawan_pakistan_logo.jpeg";
 import google from "./company/google.png";
+import enviro from "./enviro_logo.png";
 
 import bazaar_website from "./bazaar_website.png";
 import blogify_website from "./blogify_website.png";
@@ -94,4 +106,16 @@ export {
   kof_website,
   musk_website,
   resume,
+  django,
+  c,
+  canva,
+  aws,
+  azure,
+  vscode,
+  jira,
+  mysql,
+  figma,
+  threejs,
+  cisco,
+  enviro,
 };

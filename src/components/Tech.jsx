@@ -30,7 +30,6 @@ import {
   postman,
   vscode,
   threejs,
-  photoshop,
   figma,
   canva,
   aws,
@@ -78,7 +77,6 @@ const itTools = [
 // 🎨 Design & Creative Tools
 const contentProduction = [
   { name: "Figma", icon: figma },
-  { name: "Photoshop", icon: photoshop },
   { name: "Canva", icon: canva },
 ];
 
