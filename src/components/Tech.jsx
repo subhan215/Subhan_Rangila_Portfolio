@@ -120,15 +120,15 @@ const Tech = () => {
                     },
                   }}
                   whileHover={{ scale: 1.1, y: -5 }}
-                  className="flex flex-col items-center justify-center w-20 h-20 bg-[#1d1836] rounded-xl border border-[#2a2550] hover:border-[#915EFF] transition-colors cursor-pointer"
+                  className="flex flex-col items-center justify-center w-28 h-28 bg-[#1d1836] rounded-2xl border border-[#2a2550] hover:border-[#915EFF] transition-colors cursor-pointer p-3"
                 >
                   <img
                     src={tech.icon}
                     alt={tech.name}
-                    className="w-10 h-10 object-contain"
+                    className="w-14 h-14 object-contain"
                     draggable="false"
                   />
-                  <span className="text-[10px] text-gray-400 mt-1 text-center leading-tight">
+                  <span className="text-xs text-gray-400 mt-2 text-center leading-tight">
                     {tech.name}
                   </span>
                 </motion.div>
