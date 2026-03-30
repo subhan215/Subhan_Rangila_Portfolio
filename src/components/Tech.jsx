@@ -99,14 +99,14 @@ const Tech = () => {
               visible: { opacity: 1, y: 0, transition: { delay: catIdx * 0.15, duration: 0.5 } },
             }}
           >
-            <h3 className="text-white text-[18px] font-semibold mb-4" style={{
+            <h3 className="text-white text-[18px] font-semibold mb-4 text-center" style={{
               background: "linear-gradient(90deg, #915EFF, #00BFFF)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
             }}>
               {category.title}
             </h3>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-4 justify-center">
               {category.items.map((tech, idx) => (
                 <motion.div
                   key={tech.name}
