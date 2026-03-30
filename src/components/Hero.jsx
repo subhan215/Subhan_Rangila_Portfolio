@@ -67,10 +67,10 @@ const WavingHand = () => (
 const Hero = () => {
   const typedItems = [
     "Software Engineer",
-    "Backend & Microservices",
-    "Python | FastAPI | Kubernetes",
-    "AI Agent Orchestration",
-    "Full-Stack Developer"
+    "Backend Developer",
+    "Full-Stack Developer",
+    "System Design Enthusiast",
+    "Problem Solver"
   ];
 
   return (
