@@ -3,52 +3,43 @@ import { motion, AnimatePresence, useAnimation, useInView } from "framer-motion"
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { textVariant, fadeIn } from "../utils/motion";
-import { enviro, techmile_solutions_logo , fast_nu} from "../assets";
-
-// Replace these with your actual icons in /assets
-
+import { enviro, techmile_solutions_logo, fast_nu, jawan_pakistan } from "../assets";
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "FlowMaster (Remote)",
+    icon: fast_nu,
+    iconBg: "#0f3460",
+    date: "Nov 2025 – Mar 2026",
+    points: [
+      "Built and deployed 24+ Python/FastAPI microservices on Kubernetes (K3S) — process design, execution engine, AI agents, human tasks, notifications, scheduling, marketplace, document intelligence, WebSocket gateway, event bus.",
+      "Designed 4-tier RBAC with org-level data scoping — fixed 27 data-leak vulnerabilities, enforced cross-tenant isolation, per-user gateway cache.",
+      "Built marketplace with 9-step SSE installer, reference-based install tracking (marketplace_source_id), Redis cache invalidation, and Tailwind UI rewrite.",
+      "Integrated AI agent execution with Claude API — orchestration, document saving, real-time process execution with human tasks and notifications.",
+      "Deployed full infrastructure on multiple Hetzner servers — K3S clusters, GitLab CI/CD, nginx proxies, ArangoDB, PostgreSQL, Redis. 30/30 e2e tests passing.",
+    ],
+  },
+  {
+    title: "Node.js Intern",
+    company_name: "CyberState Technologies",
+    icon: jawan_pakistan,
+    iconBg: "#fff",
+    date: "Sep 2025 – Oct 2025",
+    points: [
+      "Stabilized production Node.js APIs by identifying and fixing backend bugs, improving system reliability.",
+      "Migrated legacy EJS templates to React.js, optimized backend routes, and delivered new feature modules.",
+    ],
+  },
+  {
     title: "Full-Stack Developer Intern",
     company_name: "Techmile Solutions",
-    icon: techmile_solutions_logo, // replace with Techmile logo if you have one
+    icon: techmile_solutions_logo,
     iconBg: "#383E56",
-    date: "June 2025 – August 2025",
+    date: "Jun 2025 – Aug 2025",
     points: [
-      "Built and maintained web applications using React.js, Node.js, Supabase, and PostgreSQL.",
-      "Developed mobile app modules with React Native and explored Angular for frontend components.",
-      "Collaborated with cross-functional teams to design, implement, and test new web and mobile features.",
-      "Ensured smooth UI/UX and optimized API integrations across multiple platforms.",
-    ],
-  },
-  {
-    title: "Academic & Research Projects",
-    company_name: "FAST National University of Computer and Emerging Sciences",
-    icon: fast_nu,
-    iconBg: "#E6DEDD",
-    date: "2024",
-    points: [
-      "Developed 'Enviro' — a full-stack waste management platform using Next.js, Node.js, PostgreSQL, and Socket.io.",
-      "Integrated AI image classification using Gemini Flash API for waste report filtering and sentiment analysis.",
-      "Created an interactive Leaflet.js map showcasing 150+ recycling centers with GPS-based tracking.",
-      "Designed a user reward system encouraging eco-friendly recycling through PostgreSQL-based tracking.",
-      "Built 'Bazaar' — an inventory management system with Redis caching, Docker containerization, and PostgreSQL scalability.",
-      "Implemented role-based authentication and horizontal scaling using PM2 for high-availability systems.",
-    ],
-  },
-  {
-    title: "Freelance & Independent Projects",
-    company_name: "Self-driven Development",
-    icon: enviro, // can use your Enviro or personal logo
-    iconBg: "#232631",
-    date: "2022 – Present",
-    points: [
-      "Developed 'Khareed o Farokht' — a P2P ad trading platform with Node.js, React, MongoDB, and Socket.io real-time chat.",
-      "Created 'Blogify' — a multilingual blogging app supporting 10+ languages using Google Translate API.",
-      "Implemented secure authentication, post filtering, and comment management with live notifications.",
-      "Deployed multiple applications on Firebase and Vercel with CI/CD workflows using GitHub.",
-      "Continuously improving technical depth in full-stack development, backend systems, and scalable cloud design.",
+      "Built a complete Inventory Management System with Angular frontend, Node.js backend, and React Native mobile app.",
+      "Created automated Playwright-based data scraping pipelines and integrated mobile workflows with backend APIs.",
     ],
   },
 ];
