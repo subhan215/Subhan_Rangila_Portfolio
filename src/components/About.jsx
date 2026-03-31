@@ -120,32 +120,32 @@ const About = () => {
             className="mt-4 text-secondary text-[17px] max-w-3xl space-y-6 list-none"
           >
             <motion.li variants={fadeIn("up", "spring", 0.1, 0.75)}>
-              <span className="mr-4 text-2xl">👨‍💻</span>
+              <span className="mr-4 text-2xl">•</span>
               Software Engineer passionate about building scalable backend systems,
               clean APIs, and solving complex engineering problems.
             </motion.li>
 
             <motion.li variants={fadeIn("up", "spring", 0.2, 0.75)}>
-              <span className="mr-4 text-2xl">🎓</span>
+              <span className="mr-4 text-2xl">•</span>
               Final-year CS student at{" "}
               <b>FAST-NUCES, Karachi</b> (CGPA 3.57/4.0).
             </motion.li>
 
             <motion.li variants={fadeIn("up", "spring", 0.3, 0.75)}>
-              <span className="mr-4 text-2xl">🛠</span>
+              <span className="mr-4 text-2xl">•</span>
               Experienced in <b>microservices architecture</b>, <b>REST APIs</b>,{" "}
               <b>database design</b>, <b>authentication & authorization</b>,{" "}
               and <b>real-time systems</b> — from design to deployment.
             </motion.li>
 
             <motion.li variants={fadeIn("up", "spring", 0.4, 0.75)}>
-              <span className="mr-4 text-2xl">🚀</span>
+              <span className="mr-4 text-2xl">•</span>
               Hands-on with <b>Python, FastAPI, Node.js, Next.js, PostgreSQL,
               Docker, Kubernetes</b>, and <b>CI/CD pipelines</b> in production environments.
             </motion.li>
 
             <motion.li variants={fadeIn("up", "spring", 0.5, 0.75)}>
-              <span className="mr-4 text-2xl">💡</span>
+              <span className="mr-4 text-2xl">•</span>
               Always learning — currently exploring system design, distributed computing,
               and AI-powered applications.
             </motion.li>
